@@ -23,7 +23,6 @@ html {
 }
 
 body {
-  /*background: #444444;*/
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -31,7 +30,6 @@ body {
 }
 
 .canvas {
-  /* Perfectly square */
   width: 552px;
   height: 528px;
 }
@@ -44,4 +42,21 @@ body {
   float: left;
   margin: 1px;
   border-radius: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .canvas {
+    /* Perfectly square */
+    width: 276px;
+    height: 564px;
+  }
+  .pixel,
+  .pixel-inverse {
+    /* We'll need 64 total pixels in our HTML */
+    width: 5px;
+    height: 5px;
+    float: left;
+    margin: 0.5px;
+    border-radius: 1.5px;
+  }
 }
