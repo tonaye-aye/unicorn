@@ -1,5 +1,7 @@
-# unicorn
+# Digital unicorn
 
-pixel art unicorn, in CSS only.
+Pixel art unicorn, in CSS only.
 
-more projects [here](https://devtones.me)
+[Demo](https://rxx3s.csb.app/)
+
+[More projects](https://devtones.me)
